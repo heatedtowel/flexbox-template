@@ -1,0 +1,52 @@
+* {
+  margin:0;
+  padding:0;
+  color: #fff;
+  font-size: 1.1rem;
+  background:#aaa;
+}
+.container {
+  min-height: 100vh;
+  background: #53b;
+  display:flex;
+  flex-flow: row wrap;
+  align-content: space-around;
+  row-gap: 1rem;
+}
+
+section div:nth-Child(1) {
+  display: flex;
+  flex-flow: column wrap;
+  background: #000;
+  height: 40vh;
+  flex: 3 0 80%
+}
+section div:nth-Child(2) {
+  background: #00d;
+  height: 20vh;
+  flex: 2 0 50%
+}
+section div:nth-Child(3) {
+  background: #090;
+  height: 20vh;
+  flex: 3 0 50%
+}
+section div:nth-Child(4) {
+  background: #900;
+  height: 30vh;
+  flex: 4 0 60%
+}
+
+.title {
+  background: #555;
+  padding:.2rem;
+  width: fit-content;
+  margin: 1rem;
+  border-radius: .4rem;
+}
+
+.image {
+  margin: 0 1rem;
+  height: 70%;
+  border-radius: .4rem;
+}
